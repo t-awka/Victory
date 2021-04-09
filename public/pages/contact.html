@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="container-fluid w-75 p-0 pt-5 pb-5">
+
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="font-weight-bold pb-5">MESSAGE</h3>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer01">First name</label>
+                                <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer02">Last name</label>
+                                <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer03">City</label>
+                                <input type="text" class="form-control is-invalid" id="validationServer03"
+                                    aria-describedby="validationServer03Feedback" required>
+                                <div id="validationServer03Feedback" class="invalid-feedback">
+                                    Please provide a valid city.
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationServer04">State</label>
+                                <select class="custom-select is-invalid" id="validationServer04"
+                                    aria-describedby="validationServer04Feedback" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>...</option>
+                                </select>
+                                <div id="validationServer04Feedback" class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationServer05">Zip</label>
+                                <input type="text" class="form-control is-invalid" id="validationServer05"
+                                    aria-describedby="validationServer05Feedback" required>
+                                <div id="validationServer05Feedback" class="invalid-feedback">
+                                    Please provide a valid zip.
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </form>
+                </div>
+            
+                <div class="col-6">
+                    <h3 class="font-weight-bold pb-5">CONTACT INFO</h3>
+                    <p class="text-black-50 pt-4">Pellentesque nec orci in erat venenatis viverra. Vivamus in lorem et leo feugiat ullamcorper.
+                        Donec volutpat fermentum erat non aliquet. Cras fermentum, risus a blandit sodales, erat turpis
+                        eleifend lacus, venenatis leo vel eros. Quisque et sem tempus, feugiat urna iaculis,
+                        tempor metus.</p>
+                    <h5 class="text-black-50 font-weight-bold pt-4">30 Raffles Ave,</h5>
+                    <h5 class="text-black-50 font-weight-bold">Singapore 039803</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- map -->
+    <section>
+        <div class="container-fluid w-75 p-0 pt-5 pb-5">
+            <div class="align-items-center">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8082065466706!2d103.86094811533121!3d1.2893041621247188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a936c551cd%3A0x7fb4e58ad9cd826e!2sSingapore%20Flyer!5e0!3m2!1sfr!2sbe!4v1617973004057!5m2!1sfr!2sbe"
+                    width="1430" height="630" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
