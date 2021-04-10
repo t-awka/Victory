@@ -11,44 +11,107 @@
 
 <body>
     <!-- HEADER -->
-    <header class="bg-info">
-
-        <div class="container-fluid w-75 p-0 py-4 border-bottom border-muted text-center ">
-            <h1 class="maintitle display-4">Victory</h1>
+    <header class="pb-1">
+        <!-- MENUBAR -->
+        <div class="bg-info">
+            <div class="container-fluid w-75 p-0 py-4 border-bottom border-muted text-center ">
+                <h1 class="tral maintitle display-4">Victory</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light flex-column text-center  px-0 ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav py-4 font-weight-bold">
+                        <a class="nav-item nav-link mx-5" href="#">HOME</a>
+                        <a class="nav-item nav-link mx-5" href="#">OUR MENUS</a>
+                        <a class="nav-item nav-link mx-5" href="#">BLOG ENTRIES</a>
+                        <a class="nav-item nav-link mx-5" href="#">CONTACT US</a>
+                    </div>
+                </div>
+            </nav>
         </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light flex-column text-center  px-0 ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav py-4 font-weight-bold">
-                    <a class="nav-item nav-link mx-5" href="#">HOME</a>
-                    <a class="nav-item nav-link mx-5" href="#">OUR MENUS</a>
-                    <a class="nav-item nav-link mx-5" href="#">BLOG ENTRIES</a>
-                    <a class="nav-item nav-link mx-5" href="#">CONTACT US</a>
+        <!-- BANNER -->
+        <section class="bannerH py-4  mb-5">
+            <div class="container text-center text-white py-5 my-5">
+                <div class="row justify-content-center py-5 my-5">
+                    <div class="col-8">
+                        <p class="h5"><b>HERE YOU CAN FIND DELECIOUS FOODS</b><p>
+        
+                        <h1 class="display-4 tral">ASIAN RESTAURANT</h1>
+        
+                        <p class="h5">Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a
+                        nisl non, tempor interdum nisl.</p>
+        
+                        <button  class="btn-warning border-0 text-white py-3 px-4 h6 rounded my-4"><b>ORDER RIGHT NOW</b></button>
+                    </div>
                 </div>
             </div>
-        </nav>
-
+        </section>
     </header>
     <!-- FIN HEADER -->
-    <section class="bannerH">
-        <div class="container-fluid w-50 text-center">
-            <h4>ASIAN RESTAURANT</h4>
-            Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a
-            nisl non, tempor interdum nisl.
-            ORDER RIGHT NOW
-            
-            <h1></h1>
-            <p></p>
-            <button></button>
-            
+    <section class="container-fluid w-75 py-5 mt-4 mb-5 ">
+        <div class="row justify-content-center px-5 ">
+            <div class="col-4 p-0 d-flex justify-content-end align-items-center">
+                <img src="public/img/cook_01.jpg" width="83%"   alt="">
+            </div>
+            <div class="col-4 p-5 bg-warning d-flex align-items-center flex-column text-white"> 
+                <h3><b>WE COOK DELICIOUS</b> </h3>
+                <div class="bg-danger row text-center flex-column w-100 p-4 m-3">
+                    <p>YOU CAN CALL US ON:</p>
+                    <p class="h4 "><b>+ 1234 567 8910</b></p>
+                </div>
+                <p>OR</p>
+                <button  class="btn-white border-0 text-warning py-3 px-4 h6 rounded m-0 "><b>ORDER NOW</b></button>
+            </div>
+            <div class="col-4 p-0 d-flex  align-items-center">
+                <img src="public/img/cook_02.jpg" width="83%" alt=""> 
+            </div>
         </div>
     </section>
+    <section class="container-fluid w-75 my-3 py-4 ">
+        <div class="row justify-content-between">
+            <div class="col text-center  ">
+                <img src="public/img/cook_breakfast.png" class="bg-info rounded-circle p-2" width="75%" alt="">
+                <p class="h3 tral my-3 "><b>Breakfast</b> </p> 
+            </div>
+                
+            <div class="col text-center">
+                <img src="public/img/cook_lunch.png" class="bg-info rounded-circle p-2" width="75%" alt="">
+                <p class="h3 tral my-3"><b>Lunch</b> </p> 
+            </div>
+
+            <div class="col text-center">
+                <img src="public/img/cook_dinner.png" class="bg-info rounded-circle p-2"  width="75%" alt="">
+                <p class="h3 tral my-3"><b>Dinner</b></p> 
+            </div>
+
+            <div class="col text-center">
+                <img src="public/img/cook_dessert.png" class="bg-info rounded-circle p-2"  width="75%" alt="">
+                <p class="h3 tral my-3"><b>Desserts</b> </p> 
+            </div>
+            
+        </div>
+        
+    </section>
+    
     <!-- FOOTER -->
     <footer>
+        <!-- NEWSLETTERS -->
+        <section class="newsL pt-5 text-center text-white">
+            <div class="container w-50 text-center text-white py-5">
+                <h3><b>SIGNUP FOR OUR NEWSLETTERS</b></h3>
+                <div class="row justify-content-center align-items-center">
+                    <div class="input-group input-group-lg w-50 mr-3 my-5 ">
+                        <input type="email" class="inpNL form-control rounded " aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Enter you email here ...">
+                    </div>
+                    <button  class="bg-transparent border border-white text-white py-3 px-4 h6 rounded mb-0 ml-3">SEND MESSAGE</button>
+                </div>
+            </div>
+        </section>
+        <!-- NEWSLETTERS FIN -->
+        <!-- LINKS -->
         <section class="bg-success py-5">
             <div class="container-fluid w-75 text-center py-2 ">
                 <div class="row align-items-center">
@@ -70,6 +133,7 @@
                 </div>
             </div>
         </section>
+        <!-- LINKS FIN -->
     </footer>
     <!-- FIN FOOTER -->
 
