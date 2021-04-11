@@ -16077,7 +16077,7 @@ h3 {
   background-position: center;
 }
 
-.inpNL::placeholder {
+select::placeholder {
   color: #b6b6b6;
   font-size: 90%;
 }
